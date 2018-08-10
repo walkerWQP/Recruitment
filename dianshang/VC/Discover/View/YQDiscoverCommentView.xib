@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iMj-3l-Aa9" customClass="YQDiscoverCommentView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1uW-CV-re8">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Cav-ar-lzR"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxt-Ez-0hw">
+                    <rect key="frame" x="0.0" y="8" width="320" height="155"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1Y-Du-0k9">
+                    <rect key="frame" x="0.0" y="163" width="320" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="lvU-9O-NAa"/>
+                    </constraints>
+                    <state key="normal" title="显示全部10条评论"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="R1Y-Du-0k9" secondAttribute="bottom" id="4Nr-C9-veL"/>
+                <constraint firstItem="mxt-Ez-0hw" firstAttribute="top" secondItem="1uW-CV-re8" secondAttribute="bottom" constant="7" id="6WF-Fj-JVF"/>
+                <constraint firstItem="mxt-Ez-0hw" firstAttribute="leading" secondItem="iMj-3l-Aa9" secondAttribute="leading" id="FvE-ww-yGW"/>
+                <constraint firstItem="1uW-CV-re8" firstAttribute="leading" secondItem="iMj-3l-Aa9" secondAttribute="leading" id="GnO-sq-cgc"/>
+                <constraint firstAttribute="trailing" secondItem="mxt-Ez-0hw" secondAttribute="trailing" id="NhC-4s-G3Z"/>
+                <constraint firstAttribute="trailing" secondItem="R1Y-Du-0k9" secondAttribute="trailing" id="bRW-7q-vAx"/>
+                <constraint firstItem="R1Y-Du-0k9" firstAttribute="leading" secondItem="iMj-3l-Aa9" secondAttribute="leading" id="cR4-QB-URy"/>
+                <constraint firstItem="1uW-CV-re8" firstAttribute="top" secondItem="iMj-3l-Aa9" secondAttribute="top" id="dPm-aU-4ex"/>
+                <constraint firstAttribute="trailing" secondItem="1uW-CV-re8" secondAttribute="trailing" id="hsy-ZO-hNu"/>
+                <constraint firstAttribute="bottom" secondItem="mxt-Ez-0hw" secondAttribute="bottom" constant="25" id="xh4-RJ-RrV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bodyView" destination="mxt-Ez-0hw" id="hAf-Kh-YL8"/>
+                <outlet property="displayAllBtn" destination="R1Y-Du-0k9" id="XcM-dp-U1S"/>
+            </connections>
+            <point key="canvasLocation" x="-136" y="124"/>
+        </view>
+    </objects>
+</document>

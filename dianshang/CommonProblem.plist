@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>1、E招介绍</string>
+		<key>id</key>
+		<string>0</string>
+		<key>content</key>
+		<string>E招，是一款移动互联网招聘软件。基于真实、信任、了解，旨在帮助企业高效招聘合适人才，杜绝水分简历，全程效果付费；帮助求职者快速找到真实可靠的工作岗位。
+E招提出共享招聘顾问的理念，给每个求职者和企业招聘负责人赋予第二属性——共享招聘顾问，充分共享人才资源，形成平台化标准化推荐订单获利机制，搭建人企快速对接成交体系。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>2、人才如何使用E招?</string>
+		<key>id</key>
+		<string>1</string>
+		<key>content</key>
+		<string>若您是求职者，请选择人才端入口进行注册，并完善个人简历，您的简历完善度越高，相应的筛选排序结果越靠前。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>3、企业如何使用E招?</string>
+		<key>id</key>
+		<string>2</string>
+		<key>content</key>
+		<string>若您是招聘企业，请选择企业端入口进行注册，并完善企业信息，为了增加企业可信度，我们建议您进行企业认证并申请增加企业实地验证标示，您的企业信息完善度越高，相应的筛选排序结果越靠前。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>4、共享招聘顾问介绍</string>
+		<key>id</key>
+		<string>3</string>
+		<key>content</key>
+		<string>E招给人才端和企业端对应个体赋予的一项功能属性，旨在建立标准化人才推荐订单获取机制。
+若您是求职者，您除了自身可以通过E招来求职外，您还可以把身边正在求职的朋友推荐给需求招聘企业（前提是您的朋友在E招上注册并创建了自己的简历，并将您添加到推荐白名单），您可以通过推荐订单获取相应的招聘顾问费用收益。同时，您也可以通过筛选企业需求，以猎头形式帮助企业寻找人才并进行推荐来获取收益。
+若您是招聘方，您除了自身可以通过E招直接与人才沟通建立招聘关系外，您还可以把冗余的人才简历推荐给需求招聘企业（前提是此类人才在E招上注册并创建了自己的简历，并将您添加到推荐白名单），您可以通过推荐订单获取相应的招聘顾问费用收益。同时，您也可以通过筛选企业需求，以猎头形式帮助企业寻找人才并进行推荐来获取收益。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>5、什么是推荐白名单?</string>
+		<key>id</key>
+		<string>4</string>
+		<key>content</key>
+		<string>E招为了净化推荐机制，建立真实、有效的推荐订单，只有求职者将推荐人ID（默认为E招注册手机号）添加到自己的白名单后，该推荐人才能将求职者简历进行推荐。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>6、推荐简历靠谱值</string>
+		<key>id</key>
+		<string>5</string>
+		<key>content</key>
+		<string>E招为了净化推荐机制，建立真实、有效的推荐订单，推荐人推荐给企业方的简历，企业方可对此类推荐简历进行靠谱值打分（满分5颗星），该打分计入推荐人靠谱值，若您的平均推荐简历靠谱值偏低，则系统会对您的推荐订单进行过滤，可能会影响您的顾问费收益，所以请您在基于对企业招聘需求和人才专业能力、求职方向的了解后进行合理推荐，E招不提倡撒网式推荐，针对恶意行为也会有相应处罚机制。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>7、充值与E豆使用</string>
+		<key>id</key>
+		<string>6</string>
+		<key>content</key>
+		<string>企业用户可根据招聘需求进行套餐充值，E招是效果付费模式，只有您通过E招获取有效人才信息并发起主动操作时才需付费，如：您查看推荐简历后，认可该简历人才，并主动获取联系方式进行沟通邀约，才需要付费，您与求职者的直接沟通，求职者自愿发送的联系方式、简历信息等无需付费。
+E豆使用范围为：求职者联系方式被动被查看，和企业与人才发起的视频面试。E招后续会推出其他增值服务，若使用与E豆消费，会另行公告。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>8、余额的提现</string>
+		<key>id</key>
+		<string>7</string>
+		<key>content</key>
+		<string>企业购买的E豆不可提现，只能使用，企业与人才的共享招聘顾问费收益进入余额后可提现，提现服务费为提现金额的10%，若企业申请开具发票的，该项费用由提现人支付，其中企业的招聘顾问费进入余额后还可用于支付本企业应付推荐订单的招聘顾问费。</string>
+	</dict>
+</array>
+</plist>
